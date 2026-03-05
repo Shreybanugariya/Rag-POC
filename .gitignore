@@ -1,0 +1,8 @@
+.env
+.env*
+/documents
+/__pycache__
+/faiss_index
+
+
+
