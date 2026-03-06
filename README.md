@@ -35,10 +35,10 @@ Comes with both a **CLI** and a **Streamlit web UI** with real-time streaming.
 
 ## Features
 
-- **Streaming responses** — tokens appear in real-time, no staring at a loading spinner
-- **Table extraction** — reads tables from PDFs using `pdfplumber` (not just plain text)
+- **Streaming responses** — Response takes around 10s-15s to be generated. (This is where I am looking for optimization using open-source LLMS under 4GB)
+- **Table extraction** — reads tables from PDFs using `pdfplumber` (not just plain text, tables, and unstructured data in PDF)
 - **Section-aware chunking** — respects document structure (policy headers, sections, eligibility blocks)
-- **Response caching** — repeated questions return instantly
+- **Response caching** — repeated questions return instantly (tried caching, but needs improvement) 
 - **Dual interface** — CLI for power users, Streamlit web UI for everyone else
 - **Fully local** — runs on CPU, no GPU required, no data leaves your machine
 
